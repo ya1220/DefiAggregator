@@ -1,0 +1,37 @@
+	// Now create all possible PAIRS from this list of UNIQUE tokens - PERMUTE
+	// Use token1 as both USD and other tokens - i.e. 2nd token in LENDING POOLS is always USD
+	// Query database for best ROI on items from this list
+
+	// Pack recommended pools into a the optimisedportfolio
+
+	// Now create all possible PAIRS from this list of UNIQUE tokens - PERMUTE
+	// Use token1 as both USD and other tokens - i.e. 2nd token in LENDING POOLS is always USD
+	// Query database for best ROI on items from this list
+	// Pack recommended pools into a the optimisedportfolio
+
+			// 0 - Change cov feed in data to to 3x4
+			// 1 - Change ret to averages + annualized
+			// 2 - Check cov annualization
+			// 3 - Check sharpe matches
+			// 4 - Maximise sharpe, remove lambda
+			// 5 - Check blended return
+			// 6 - Check blended vol
+			
+					// 0 - Recalculate returns - how? +hist return + other return - swap costs - not just prices here - it is also other stuff
+		// 1 - Add ratio to pool data - assume 50/50 for now
+		// 5 - Add costs
+		
+LINKS:
+https://www.youtube.com/watch?v=CNIVd_b7YJc - BEST VIDEO - EXCEL SAVED IN ONE OF RECENT COMMITS
+https://github.com/chaitjo/markowitz-portfolio-optimization/blob/master/markowitz.py
+https://docs.mosek.com/9.2/cxxfusion/case-studies-portfolio.html
+https://github.com/bormanjo/efficient-frontier/blob/master/Code/src/EfficientFrontier.cpp
+https://plotly.com/python/v3/ipython-notebooks/markowitz-portfolio-optimization/
+https://sbinet.github.io/posts/2017-10-10-lep-data-minimization/
+https://sbinet.github.io/posts/2017-10-09-intro-to-minimization/
+https://github.com/emef/go.ml
+https://medium.com/python-data/effient-frontier-in-python-34b0c3043314
+https://jump.dev/Convex.jl/stable/examples/portfolio_optimization/portfolio_optimization2/
+https://medium.com/python-data/efficient-frontier-portfolio-optimization-with-python-part-2-2-2fe23413ad94
+https://medium.com/wireless-registry-engineering/gonum-tutorial-linear-algebra-in-go-21ef136fc2d7
+https://medium.com/wireless-registry-engineering/gonum-tutorial-linear-algebra-in-go-21ef136fc2d7
