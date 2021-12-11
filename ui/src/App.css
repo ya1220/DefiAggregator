@@ -1,0 +1,298 @@
+.App, .Contact, .About {
+  background: var(--theme-page-background);
+}
+
+@font-face {
+	font-family: ProximaNova-Regular;
+	src: url(Fonts/ProximaNova-Regular.ttf);
+}
+
+@font-face {
+  font-family: LemonMilkBoldItalic;
+  src: url(Fonts/LemonMilkBoldItalic.otf)
+}
+
+@font-face {
+  font-family: LemonMilkBold;
+  src: url(Fonts/LemonMilkBold.otf)
+}
+
+@font-face {
+  font-family: LemonMilkRegularItalic;
+  src: url(Fonts/LemonMilkRegularItalic.otf)
+}
+
+@font-face {
+  font-family: LemonMilkRegular;
+  src: url(Fonts/LemonMilkRegular.otf)
+}
+
+* {
+  color: var(--theme-page-text);
+}
+
+.logobox {
+  padding-top: 50px;
+  text-align: center;
+}
+
+h1 {
+  color: var(--theme-page-text);
+  text-align: center;
+  font-family: LemonMilkBoldItalic;
+}
+
+.about-hyfm {
+  padding-top: 100px;
+}
+
+h5 {
+  color: rgb(116, 140, 174);
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.menuBar {
+  text-align: center;
+}
+
+.about {
+  font-weight: bold;
+  color: rgb(116, 140, 174);
+  padding-right: 20px;
+}
+
+.about:hover {
+  color: rgb(81, 146, 253);
+}
+
+.contact {
+  font-weight: bold;
+  color: rgb(116, 140, 174);
+  padding-left: 20px;
+}
+
+.contact:hover {
+  color: rgb(81, 146, 253);
+}
+
+i {
+  color: rgb(81, 146, 253);
+}
+
+.back {
+  text-align: center;
+  padding: 50px;
+}
+
+.Links {
+  text-align: center;
+  padding: 50px;
+}
+
+.back-about {
+  text-align: center;
+}
+
+.paragraph {
+  width: 50%;
+  margin: 0 auto;
+}
+
+p {
+  text-align: left;
+}
+
+.recommended-float {
+  display: flex;
+  margin: 0 auto;
+}
+
+.recommended-header {
+  color: var(--theme-page-text);
+  text-align: center;
+  padding: 10px;
+  font-family: LemonMilkBold;
+  flex: 10;
+}
+
+.recommended-reset {
+  flex: 1;
+}
+
+.about-header {
+  color: var(--theme-page-text);
+  text-align: center;
+  padding: 50px;
+  font-family: LemonMilkBold;
+}
+
+h3 {
+  color: var(--theme-page-text);
+  text-align: center;
+  padding: 10px;
+}
+
+.column-left {
+  float: left;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.column-right {
+  float: right;
+  width: 50%;
+  text-align: center;
+  padding-bottom: 50px;
+}
+
+.contact-container {
+  padding-top: 75px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+h6 {
+  color: rgb(116, 140, 174);
+  text-align: center;
+  padding-bottom: 25px;
+}
+
+.MiddleDivider {
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+.ui.table td {
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+
+.ui.segment {
+  background: var(--theme-color-segment);
+  border-color: var(--theme-color-segment-border);
+  border-width: 2px;
+  border-radius: 10px;
+}
+
+.ui.button {  
+  background-color: var(--theme-color-button);
+  color: rgb(81, 146, 253);
+}
+
+.ui.button:hover {
+  color: rgb(81, 146, 253);
+  background-color: var(--theme-color-button-hover);
+}
+
+.visible {
+  color: rgb(81, 146, 253);
+}
+
+.refresh {
+  color: rgb(81, 146, 253);
+}
+
+.tableButton {
+  text-align: right;
+}
+
+.headerTitle {
+  color: rgb(116, 140, 174);
+}
+
+.label {
+  width: 75%;
+  text-align: center;
+}
+
+.floatContainer {
+  display: flex;
+  margin: 0 auto;
+}
+
+.recommendedPortfolio {
+  width: 25%;
+  float: left;
+  padding-right: 10px;
+  flex: 4;
+}
+
+.resultsForm {
+  width: 25%;
+  padding-left: 10px;
+  flex: 1;
+}
+
+.inputLabel {
+  padding-top: 10px;
+  color: rgb(116, 140, 174);
+}
+
+.portfolioSubmit {
+  padding-top: 10px;
+  text-align: right;
+}
+
+.portfolio {
+  padding-bottom: 15px;
+}
+
+select {
+  color: var(--theme-page-text) !important;
+  background-color: var(--theme-color-button) !important;
+}
+
+input {
+  color: var(--theme-page-text) !important;
+  background-color: var(--theme-color-button) !important;
+}
+
+::placeholder {
+  color: var(--theme-page-text) !important;
+}
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+button:focus {
+  background-color: var(--theme-color-button) !important;
+  color: rgb(81, 146, 253) !important;
+}
+
+.container--toggle {
+  text-align: right;
+  padding-bottom: 25px;
+}
+
+.info {
+  color: rgb(116, 140, 174);
+}
+
+.popup, .popup:before {
+  background-color: var(--theme-color-segment) !important;
+  border-color: var(--theme-color-segment-border) !important;
+}
+
+.portfolio-popup {
+  color: var(--theme-page-text) !important;
+}
+
+.risk {
+  padding: 0px;
+}
